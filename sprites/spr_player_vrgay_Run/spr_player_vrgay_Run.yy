@@ -2,7 +2,7 @@
     "id": "2bb478a1-2838-4a41-ad2a-af83cf2addf7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Run__32x32_",
+    "name": "spr_player_vrgay_Run",
     "For3D": false,
     "HTile": false,
     "VTile": false,

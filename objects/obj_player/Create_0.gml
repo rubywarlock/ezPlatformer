@@ -13,3 +13,5 @@ animation_setup() ;
 __mov_fall = false ;
 debug__=false;
 double_jump=false;
+
+// 

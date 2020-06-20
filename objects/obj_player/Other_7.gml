@@ -5,8 +5,8 @@
 //
 if double_jump_animation {
 	double_jump_animation = false ;
-	if sprite_index == Double_Jump__32x32_ {
+	if sprite_index == spr_player_vrgay_Double_Jump {
 		image_index = 0 ;
-		sprite_index = Jump__32x32_ ;
+		sprite_index = spr_player_vrgay_Jump ;
 	}
 }

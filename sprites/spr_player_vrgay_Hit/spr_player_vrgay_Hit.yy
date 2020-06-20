@@ -2,7 +2,7 @@
     "id": "c1d83866-7fd2-4356-80af-ecab823302fd",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Hit__32x32_",
+    "name": "spr_player_vrgay_Hit",
     "For3D": false,
     "HTile": false,
     "VTile": false,

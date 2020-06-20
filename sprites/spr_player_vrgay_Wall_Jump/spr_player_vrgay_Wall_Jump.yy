@@ -2,7 +2,7 @@
     "id": "15473908-1975-4c03-8d5d-0812662c9815",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Wall_Jump__32x32_",
+    "name": "spr_player_vrgay_Wall_Jump",
     "For3D": false,
     "HTile": false,
     "VTile": false,

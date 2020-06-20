@@ -3,9 +3,9 @@
     
 */
 #region __debug
-	if keyboard_check_pressed( vk_control )
+	/*if keyboard_check_pressed( vk_control )
 		__mov_speed_ximpulse_power = 3 ;
-		__mov_speed_ximpulse_accelerator = 0.12 ;
+		__mov_speed_ximpulse_accelerator = 0.12 ;*/
 #endregion
 
 //
@@ -13,10 +13,12 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	gml_pragma( "global" , @"
 		global.__zProject_mov_collision_list = ds_list_create() ;
+		global.__zProject_mov_collision_time = 0 ;
 	" ) ;
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	#macro mov_list global.__zProject_mov_collision_list
+	
 	#macro speed_max 5
 	#macro speed_acceleration 0.65
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -54,13 +56,17 @@ if __mov_switch_grav_auto and !__mov_switch_grav {
 		ds_list_clear( mov_list ) ;
 		if collision_rectangle_list( __x1 , __y1 , __x2 , __y2 , obj_wall_soft , false , false , mov_list , false ) {
 			
+			//
+			__mov_switch_grav = true ;
+			
+			//
 			var i = 0 , __id_in ;
 			repeat ds_list_size( mov_list ) {
 				__id_in = mov_list[| i ++ ] ;
-				if __id_in.y < y {
+				if __id_in.y > y {
 					
 					//
-					__mov_switch_grav = true ;
+					__mov_switch_grav = false ;
 					break ;
 				}
 			}
@@ -93,6 +99,9 @@ if __mov_switch_grav {
 		// moving to up
 		var __speed_y = round( __mov_speed_y ) + sign( __mov_speed_y ) ;
 		if __speed_y < 0 {
+			
+			//
+			__mov_math_y = 0 ;
 			
 			//
 			ds_list_clear( mov_list ) ;
@@ -154,12 +163,15 @@ if __mov_switch_grav {
 			if is_undefined( __speed_y ) {
 				
 				//
-				ystart += __mov_speed_y ;
+				ystart += __mov_speed_y * mov_time ;
 				y = round( ystart ) ;
 			}
+			
+			//
+			__mov_math_y += y - yprevious ;
 		}
 	}
-} #endregion
+} else __mov_math_y = 0 ; #endregion
 /* 
 	used:
 		__mov_switch_grav
@@ -167,6 +179,7 @@ if __mov_switch_grav {
 		__mov_speed_y
 		__mov_speed_ylimiter
 		__mov_box
+		__mov_math_y
 		
 		speed_max
 		speed_acceleration

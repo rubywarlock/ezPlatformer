@@ -34,7 +34,7 @@
             "Key": "055a84ee-3fd2-47fc-8ba5-7b0df1cc6203",
             "Value": {
                 "id": "eb4c5bd7-d1e3-41c7-9cbb-43a90d9d1294",
-                "resourcePath": "sprites\\spr_player_mask\\spr_player_mask.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_mask\\spr_player_vrgay_mask.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "15473908-1975-4c03-8d5d-0812662c9815",
             "Value": {
                 "id": "60116e0f-98f4-42c7-a0c6-5c993ffb8974",
-                "resourcePath": "sprites\\Wall_Jump__32x32_\\Wall_Jump__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Wall_Jump\\spr_player_vrgay_Wall_Jump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "1b4ca49c-cd03-46a4-969b-7b8a717149f0",
             "Value": {
                 "id": "6b548ad6-3d7f-4d03-847f-6d8ffc9997fb",
-                "resourcePath": "sprites\\Jump__32x32_\\Jump__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Jump\\spr_player_vrgay_Jump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "2bb478a1-2838-4a41-ad2a-af83cf2addf7",
             "Value": {
                 "id": "3d12ffd6-18d5-4c86-abde-d5cbc8199c74",
-                "resourcePath": "sprites\\Run__32x32_\\Run__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Run\\spr_player_vrgay_Run.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -330,7 +330,7 @@
             "Key": "7bf5c3df-620e-47f3-898f-861ec1f95485",
             "Value": {
                 "id": "d1496122-2692-4ccc-8af2-ca4fc97ada32",
-                "resourcePath": "sprites\\Idle__32x32_\\Idle__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Idle\\spr_player_vrgay_Idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -346,7 +346,7 @@
             "Key": "87c0de9d-95e5-43b0-9759-dbe06f4ac1e3",
             "Value": {
                 "id": "6b6debc7-604a-4fc7-869b-bcd24fd7780d",
-                "resourcePath": "sprites\\Fall__32x32_\\Fall__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Fall\\spr_player_vrgay_Fall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -458,7 +458,7 @@
             "Key": "c1d83866-7fd2-4356-80af-ecab823302fd",
             "Value": {
                 "id": "89fd6658-e72b-4d90-914b-be159d091436",
-                "resourcePath": "sprites\\Hit__32x32_\\Hit__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Hit\\spr_player_vrgay_Hit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -474,7 +474,7 @@
             "Key": "d242420c-9eda-43f9-845c-f1cc7348d768",
             "Value": {
                 "id": "73601046-e49b-44e3-ae0f-7256a6e1b521",
-                "resourcePath": "sprites\\Double_Jump__32x32_\\Double_Jump__32x32_.yy",
+                "resourcePath": "sprites\\spr_player_vrgay_Double_Jump\\spr_player_vrgay_Double_Jump.yy",
                 "resourceType": "GMSprite"
             }
         },

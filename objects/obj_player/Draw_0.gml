@@ -3,7 +3,7 @@
     
 */
 //
-draw_self() ;
+mov_draw_self() ;
 
 if debug__ {
 	draw_set_color(c_red);

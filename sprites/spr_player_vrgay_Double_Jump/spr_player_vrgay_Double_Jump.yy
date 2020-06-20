@@ -2,7 +2,7 @@
     "id": "d242420c-9eda-43f9-845c-f1cc7348d768",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Double_Jump__32x32_",
+    "name": "spr_player_vrgay_Double_Jump",
     "For3D": false,
     "HTile": false,
     "VTile": false,
